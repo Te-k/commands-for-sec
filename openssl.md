@@ -5,7 +5,7 @@
 openssl x509 -in cert.crt  -text
 ```
 
-**Same with DER**:
+**Same with DER** (read .crl too):
 ```
 openssl x509 -in cert.crt -inform der -text
 ```
