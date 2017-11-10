@@ -4,3 +4,7 @@
 ```bash
 curl -w "%{redirect_url}" URL
 ```
+**HEAD HTTP request**:
+```bash
+curl -I -X HEAD URL
+```
