@@ -8,3 +8,13 @@ curl -w "%{redirect_url}" URL
 ```bash
 curl -I -X HEAD URL
 ```
+
+**Follow redirects**:
+```bash
+curl -L URL
+```
+
+**Do not validate HTTPs certificate:**
+```bash
+curl -k URL
+```
