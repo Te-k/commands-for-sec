@@ -7,5 +7,5 @@ awk -F ',' '$5 ~ /baddomain.com/' FILE
 
 **Print specific fields of a csv file**
 ```bash
-awf -F '|' '{print $3 $4} FILE
+awf -F '|' '{print $3" "$4} FILE
 ```

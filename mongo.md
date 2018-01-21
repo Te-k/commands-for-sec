@@ -19,3 +19,13 @@ db.cars.find()
 ```
 db.houses.drop()
 ```
+
+**Dump database:**
+```
+mongodump -d <database_name> -o <directory_backup>
+```
+
+**Restore dump:**
+```
+mongorestore -d <database_name> <directory_backup>
+```
