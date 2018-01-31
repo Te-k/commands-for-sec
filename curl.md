@@ -33,3 +33,8 @@ curl -d "param1=value1&param2=value2" -X POST http://localhost:3000/data
 ```
 curl -d '{"key1":"value1", "key2":"value2"}' -H "Content-Type: application/json" -X POST http://localhost:3000/data
 ```
+
+**Force DNS resolution**
+```
+curl https://DOMAIN.TLD --resolve "DOMAIN.TLD:443:IP_ADDRESS"
+```
