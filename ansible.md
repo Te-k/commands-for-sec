@@ -14,3 +14,8 @@ $ ansible all -s -m shell -a 'apt-get install nginx'
 ```bash
 $ ansible-playbook -s main.yml -K
 ```
+
+**Create templates for a role:**
+```bash
+$ ansible-galaxy init ROLENAME
+```

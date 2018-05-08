@@ -7,3 +7,5 @@
 * **vagrant halt**: shutdown the operating system, keep the VM
 * **vagrant destroy**: destroy the VM
 * **vagrant resume**: resume a suspended VM
+* **vagrant box list** : list existing boxes
+* **vagrant box add bento/ubuntu-18.04** : Install a new box
