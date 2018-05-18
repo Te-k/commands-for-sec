@@ -24,3 +24,8 @@ openssl s_client -showcerts -connect DOMAIN:443 </dev/null 2>/dev/null | openssl
 ```
 openssl x509 -noout -fingerprint -md5 -inform pem -in [certificate-file.crt]
 ```
+
+**Remotely check a certificate:**
+```
+openssl s_client -showcerts -connect www.domain.com:443
+```
