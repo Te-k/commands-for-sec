@@ -9,3 +9,13 @@ gpg --output FILE.sig --detach-sign FILE
 ```
 gpg --verify FILE.sig FILE
 ```
+
+**Export a public key:**
+```
+gpg --export -a "User Name" > public.key
+```
+
+**Export a public key:**
+```
+gpg --export-secret-keys -a Username
+```
