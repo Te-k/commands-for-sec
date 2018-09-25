@@ -38,3 +38,8 @@ curl -d '{"key1":"value1", "key2":"value2"}' -H "Content-Type: application/json"
 ```
 curl https://DOMAIN.TLD --resolve "DOMAIN.TLD:443:IP_ADDRESS"
 ```
+
+**Test if a proxy is open:**
+```
+http_proxy=http://X.X.X.X:8080/ curl -4 -s http://nyc2.mirrors.digitalocean.com/tools/open_proxy_check.txt
+```
