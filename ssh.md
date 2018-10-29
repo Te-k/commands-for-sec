@@ -14,3 +14,8 @@ ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no example.com
 ```bash
 ssh-keygen -l -F SERVER
 ```
+
+**Ignore new key warning:**
+```bash
+ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no user@IP
+```

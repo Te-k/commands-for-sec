@@ -40,3 +40,8 @@ gpg --list-sigs
 gpg --sign-key --ask-cert-level someone@example.com
 ```
 (Then you need to send the key to the server if you want to publish it)
+
+**Import public keys from another public ring:**
+```
+gpg --export --keyring=~/.gnupg.old/pubring.gpg | gpg --import
+```
