@@ -34,3 +34,8 @@ docker rmi d4
 ```
 docker port d4
 ```
+
+**Run a container:**
+```
+docker run -it <image name> <command>
+```
