@@ -45,3 +45,8 @@ gpg --sign-key --ask-cert-level someone@example.com
 ```
 gpg --export --keyring=~/.gnupg.old/pubring.gpg | gpg --import
 ```
+
+**Encrypt a text file:**
+```
+gpg --encrypt --sign --armor -r person@email.com name_of_file
+```

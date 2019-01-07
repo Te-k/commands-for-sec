@@ -9,3 +9,8 @@ awk -F ',' '$5 ~ /baddomain.com/' FILE
 ```bash
 awf -F '|' '{print $3" "$4} FILE
 ```
+
+**Tab separated files:**
+```
+awk -F $'\t' ...
+```
