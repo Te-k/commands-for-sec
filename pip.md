@@ -9,3 +9,8 @@ pip install maxminddb==1.2.1
 ```
 pip install Django --upgrade
 ```
+
+**Automatically create requirements:**
+```
+pip freeze > requirements.txt
+```
