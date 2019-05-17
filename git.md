@@ -1,5 +1,13 @@
 # git
 
+**Sync a fork of a repository to keep it up-to-date with the upstream repository.**:
+```
+git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git
+git fetch upstream
+git checkout master
+git merge upstream/master
+```
+
 **Selective add:**
 ```
 git add -p
