@@ -22,3 +22,17 @@ strings:
 condition:
     $mandatory and 2 of ($optional*)
 ```
+
+**Hex strings:**
+```
+$hex_string = { E2 34 ?? C8 A? FB }
+```
+
+**Check for doc header with macro:**
+```
+    strings:
+        $a = {d0 cf 11 e0}
+        $b = {00 41 74 74 72 69 62 75 74 00}
+    condition:
+        $a at 0 and $b
+```
