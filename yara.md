@@ -1,5 +1,20 @@
 # Yara
 
+**Rule example :**
+
+```
+rule EXAMPLE {
+    meta:
+        author = "ME"
+
+    strings:
+        $s1 = "string" ascii
+
+    condition:
+        all of them
+}
+```
+
 **Consider only files with MZ header**
 ```bash
     condition:

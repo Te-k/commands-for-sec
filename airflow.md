@@ -5,6 +5,11 @@
 airflow webserver -p 8080
 ```
 
+**Run the scheduler:**
+```
+airflow scheduler
+```
+
 **Test a task from a DAG:**
 ```
 airflow test DAG TASK 2017-03-18T18:00:00.0

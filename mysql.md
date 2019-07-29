@@ -19,3 +19,8 @@ use DATABASE;
 ```
 show tables;
 ```
+
+**List users:**
+```
+SELECT User FROM mysql.user;
+```
