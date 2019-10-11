@@ -19,3 +19,8 @@ androguard apkid APK
 ```
 androguard axml APK
 ```
+
+**Decode compiled resources:**
+```
+androguard arsc app.apk
+```
