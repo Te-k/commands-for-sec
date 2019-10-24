@@ -27,6 +27,12 @@ rule EXAMPLE {
         uint16(0) == 0x5A4D and uint32(uint32(0x3C)) == 0x00004550 and 2 of them
 ```
 
+**Consider only DEX files**:
+```
+    condition:
+        uint16(0) == 0x6564 and all of them
+```
+
 **Consider only a sublist of strings**:
 ```
 strings:
