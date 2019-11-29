@@ -29,3 +29,8 @@ openssl x509 -noout -fingerprint -md5 -inform pem -in [certificate-file.crt]
 ```
 openssl s_client -showcerts -connect www.domain.com:443
 ```
+
+**Print a PKCS7 certificate:**
+```
+openssl pkcs7 -inform DER -print_certs -text -in FILE
+```
