@@ -19,3 +19,8 @@ gobuster dns -d google.com -w ~/wordlists/subdomains.txt -i
 ```
 gobuster vhost -u https://mysite.com -w common-vhosts.txt
 ```
+
+**dir mode update host:**
+```
+gobuster dir -w lists.txt -u "TARGET" -H "Host: google.com"
+```

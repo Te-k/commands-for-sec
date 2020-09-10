@@ -24,3 +24,9 @@ show tables;
 ```
 SELECT User FROM mysql.user;
 ```
+
+**Create user and grant access to a db:**
+```
+CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';
+GRANT ALL PRIVILEGES ON * . * TO 'newuser'@'localhost';
+```

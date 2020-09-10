@@ -21,3 +21,8 @@ parser.add_argument('--sum', dest='accumulate', action='store_const',
 
 args = parser.parse_args()
 ```
+
+**pretty print with json:**
+```
+print(json.dumps({'4': 5, '6': 7}, sort_keys=True, indent=4))
+```
