@@ -43,3 +43,18 @@ curl https://DOMAIN.TLD --resolve "DOMAIN.TLD:443:IP_ADDRESS"
 ```
 http_proxy=http://X.X.X.X:8080/ curl -4 -s http://nyc2.mirrors.digitalocean.com/tools/open_proxy_check.txt
 ```
+
+**Upload file:**
+```sh
+curl <IP> --upload-file <FILE>
+```
+
+
+**Give parameters with encoding:**
+```sh
+curl <IP> --data-urlencode urlConfig=<PATH>
+```
+
+**Send request as logged user:**
+```sh
+curl -u <USER> <IP> --data-binary <PAYLOAD>
