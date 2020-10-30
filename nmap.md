@@ -1,10 +1,5 @@
 # Nmap
 
-**Retrieve a TLS certificate:**
-```
-nmap -p 443 –script ssl-cert didierstevens.com
-```
-
 
 **Quickstart:**
 
@@ -35,6 +30,11 @@ nmap -sU <IP or Range>
 
 ```sh
 nmap --open -sV <IP or Range>
+```
+
+**Retrieve a TLS certificate:**
+```
+nmap -p 443 –script ssl-cert didierstevens.com
 ```
 
 **Scan and run default scripts:**
