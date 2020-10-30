@@ -17,3 +17,9 @@ git add -p
 ```
 git rebase -i HEAD~3
 ```
+
+**Check logs:**
+```
+git log
+git reflog
+```
