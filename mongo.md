@@ -1,5 +1,10 @@
 # mongo
 
+**Connect to remote DB:**
+```
+mongo -u <USER> -p <PASSWORD> <HOST:PORT/DB>
+```
+
 **List databases:**
 ```
 show dbs

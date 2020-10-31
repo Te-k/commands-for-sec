@@ -17,3 +17,15 @@ git add -p
 ```
 git rebase -i HEAD~3
 ```
+
+**Check logs:**
+```
+git log
+git reflog
+```
+
+**Add/remove remote repos:**
+```
+git remote add NAME git://
+git remote remove NAME https://
+```
