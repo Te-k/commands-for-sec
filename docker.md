@@ -39,3 +39,13 @@ docker port d4
 ```
 docker run -it <image name> <command>
 ```
+
+**MySQL for dev in a container:**
+```
+docker run -d --name mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root -v PATH:/var/lib/mysql mysql
+```
+
+**Mongo for dev in a container:**
+```
+docker run -d -p 27017:27017 --name mongodb mongo -v PATH:/data/db
+```

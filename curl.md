@@ -58,3 +58,4 @@ curl <IP> --data-urlencode urlConfig=<PATH>
 **Send request as logged user:**
 ```sh
 curl -u <USER> <IP> --data-binary <PAYLOAD>
+```
