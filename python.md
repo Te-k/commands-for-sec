@@ -26,3 +26,9 @@ args = parser.parse_args()
 ```
 print(json.dumps({'4': 5, '6': 7}, sort_keys=True, indent=4))
 ```
+
+**Build and upload project to pypi:**
+```
+python3 -m build
+python3 -m twine upload dist/*
+```

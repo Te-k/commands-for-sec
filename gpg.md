@@ -50,3 +50,8 @@ gpg --export --keyring=~/.gnupg.old/pubring.gpg | gpg --import
 ```
 gpg --encrypt --sign --armor -r person@email.com name_of_file
 ```
+
+**Encrypt and sign with a specific key:**
+```
+gpg --encrypt --sign --armor -r TARGET -r MYEMAIL --local-user MYEMAIL FILE
+```

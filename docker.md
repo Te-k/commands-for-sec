@@ -49,3 +49,8 @@ docker run -d --name mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root -v PATH:/var
 ```
 docker run -d -p 27017:27017 --name mongodb mongo -v PATH:/data/db
 ```
+
+**Get IP address:**
+```
+docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' CONTAINER
+```

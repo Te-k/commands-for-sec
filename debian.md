@@ -2,6 +2,7 @@
 
 * 8 : Jessie
 * 9 : Stretch
-* 10 : Buster - stable
-* 11 : Bullseye - testing
+* 10 : Buster
+* 11 : Bullseye - stable
+* 12 : bookworm - testing
 * Sid - unstable

@@ -15,6 +15,11 @@ show dbs
 show collections
 ```
 
+**Use a database:**
+```
+use DBNAME
+```
+
 **Show content of the collection cars**:
 ```
 db.cars.find()
@@ -33,4 +38,9 @@ mongodump -d <database_name> -o <directory_backup>
 **Restore dump:**
 ```
 mongorestore -d <database_name> <directory_backup>
+```
+
+**Run query in mongo legacy shell:**
+```
+mongo DBNAME --eval "QUERY"
 ```

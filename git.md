@@ -29,3 +29,8 @@ git reflog
 git remote add NAME git://
 git remote remove NAME https://
 ```
+
+**Specify private key for pull/push**
+```
+ssh-agent bash -c 'ssh-add /somewhere/yourkey; git clone git@github.com:user/project.git'
+```
